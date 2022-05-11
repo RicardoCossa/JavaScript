@@ -5,6 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de javascript - variaveis e const</title>
+    <script>
+        var jogador = "Ricardo";
+        var vida = 3;
+        var municao = 100;
+        var pontos = 0;
+        var tiros = 1500;
+        var acertos = 750;
+        var mediaDeAcertos = (acertos/tiros) * 100;
+
+        document.write("Nome: <span style='color:#f00'>" + jogador + "</span><br>")
+        document.write("Vida: <span style='color:#f00'>" + vida + "</span><br>") 
+        document.write("Munição: <span style='color:#f00'>" + municao + "</span><br>")
+        document.write("Pontos: <span style='color:#f00'>" + (pontos + (vida * 10)) + "</span><br>")
+        document.write("Média de acertos: <span style='color:#f00'>" + mediaDeAcertos + "%</span><br>")
+    </script>
 </head>
 <body>
     
